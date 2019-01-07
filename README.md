@@ -1,9 +1,6 @@
 # NdkTest
 NdkTest,学习测试遇到一些坑，记录，待更新...
 
- # android ndk编程
- * https://blog.csdn.net/qq_41063141/article/details/83298633
-
  # 记录下几个异常:
  * 1、Error: Your project contains C++ files but it is not using a supported native build system
  
@@ -54,4 +51,5 @@ NdkTest,学习测试遇到一些坑，记录，待更新...
 
 # 参考资料:
 * AndroidStudio JNI详细教程+Gradle3.0以上JNI爬坑之旅 https://www.jianshu.com/p/997ae19a5fae
+* android ndk编程 https://blog.csdn.net/qq_41063141/article/details/83298633
 
