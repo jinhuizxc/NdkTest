@@ -19,11 +19,13 @@ NdkTest,学习测试遇到一些坑，记录，待更新...
  ```
 
  * 2、make project异常:
+ ```
  Error: Your project contains C++ files but it is not using a supported native build system.
   Consider using CMake or ndk-build integration. For more information, go to:
   https://d.android.com/r/studio-ui/add-native-code.html
   Alternatively, you can use the experimental plugin:
   https://developer.android.com/r/tools/experimental-plugin.html
+ ```
  解决方法: https://blog.csdn.net/xiaozhu0922/article/details/78835144
 ```
 在build.gradle的defaultConfig节点下加入：
