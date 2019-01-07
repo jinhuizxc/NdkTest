@@ -46,9 +46,11 @@ NdkTest,学习测试遇到一些坑，记录，待更新...
  }
 ```
 * 3、打开旧项目报异常:
-     解决"No toolchains found in the NDK toolchains folder for ABI with prefix: mips64el-linux-android"错误
-     解决办法: https://blog.csdn.net/vocanicy/article/details/83004626
-     其实解决方法很简单，就是修改build.gradle,改为3.1以上版本即可
+```
+ "No toolchains found in the NDK toolchains folder for ABI with prefix: mips64el-linux-android"
+```
+解决办法: https://blog.csdn.net/vocanicy/article/details/83004626
+其实解决方法很简单，就是修改build.gradle,改为3.1以上版本即可.
 
 # 参考资料:
 * AndroidStudio JNI详细教程+Gradle3.0以上JNI爬坑之旅 https://www.jianshu.com/p/997ae19a5fae
