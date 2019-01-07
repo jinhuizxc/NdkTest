@@ -6,7 +6,8 @@ NdkTest,学习测试遇到一些坑，记录，待更新...
 
  # 记录下几个异常:
  * 1、Error: Your project contains C++ files but it is not using a supported native build system
-  解决办法: https://blog.csdn.net/lzh838330255/article/details/81703849
+ 
+ 解决办法: https://blog.csdn.net/lzh838330255/article/details/81703849
    在app的 build.gradle 中的 buildType中添加 以下这句代码：
  ```
  // 添加这句代码
@@ -47,6 +48,6 @@ NdkTest,学习测试遇到一些坑，记录，待更新...
      解决办法: https://blog.csdn.net/vocanicy/article/details/83004626
      其实解决方法很简单，就是修改build.gradle,改为3.1以上版本即可
 
-# 参卡资料:
+# 参考资料:
 * AndroidStudio JNI详细教程+Gradle3.0以上JNI爬坑之旅 https://www.jianshu.com/p/997ae19a5fae
 
