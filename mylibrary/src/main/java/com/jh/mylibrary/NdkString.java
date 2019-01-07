@@ -54,7 +54,9 @@ package com.jh.mylibrary;
  * 打开旧项目报异常:
  * 解决"No toolchains found in the NDK toolchains folder for ABI with prefix: mips64el-linux-android"错误
  * 解决办法:
+ * https://blog.csdn.net/vocanicy/article/details/83004626
  * 其实解决方法很简单，就是修改build.gradle,改为3.1以上版本即可
+ *
  *
  *
  */
